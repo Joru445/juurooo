@@ -53,16 +53,11 @@ function change() {
     var div = document.getElementById("card2");
     var img = document.getElementById("gif");
     
-    if (img.style.display !== "none") {
-        img.style.display = "none";
-        div.innerHTML = 'kasi bagay ka sa itlog ko <br> ᕙ(  •̀ ᗜ •́  )ᕗ';
-    } else {
-        alert("Hello");
-        img.style.display = "";
-        div.innerHTML = 'lugaw <br> ka ba? <img class="stickers" id="gif" src="https://media.tenor.com/kZzow5agOnkAAAAi/flowers.gif">';
-    }
+    img.style.display = "none";
+    div.innerHTML = 'kasi bagay ka sa itlog ko <br> ᕙ(  •̀ ᗜ •́  )ᕗ';
 }
 
 //https://media.tenor.com/xIEKHAcKvv8AAAAi/sanrio.gif
-//https://media.tenor.com/O1Zk8YvgJ-EAAAAi/peach-goma-peach.gif
-//https://media.tenor.com/H3ldQhigflkAAAAi/pixel-flower-cute-pixel.gif
+//
+//https://media.tenor.com/-aW73OVUtyYAAAAi/tkthao219-bubududu.gif
+//https://media.tenor.com/w1T9CUIKsjEAAAAi/bubu-dudu-bubu.gif
